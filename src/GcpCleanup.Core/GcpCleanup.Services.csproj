@@ -9,13 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GcpCleanup.Core\GcpCleanup.Services.csproj" />
-    <ProjectReference Include="..\GcpCleanup.Gcp\GcpCleanup.Gcp.csproj" />
     <ProjectReference Include="..\GcpCleanup.Shared\GcpCleanup.Shared.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>

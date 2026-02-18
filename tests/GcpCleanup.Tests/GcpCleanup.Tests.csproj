@@ -12,6 +12,11 @@
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="FluentAssertions" Version="8.8.0" />
+    <PackageReference Include="Google.Apis" Version="1.73.0" />
+    <PackageReference Include="Google.Apis.Storage.v1" Version="1.73.0.4028" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="4.14.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
     <PackageReference Include="xunit" Version="2.5.3" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
@@ -22,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\GcpCleanup.Core\GcpCleanup.Core.csproj" />
+    <ProjectReference Include="..\..\src\GcpCleanup.Core\GcpCleanup.Services.csproj" />
     <ProjectReference Include="..\..\src\GcpCleanup.Shared\GcpCleanup.Shared.csproj" />
   </ItemGroup>
 
