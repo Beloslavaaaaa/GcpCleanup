@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
     <PackageReference Include="Google.Apis" Version="1.73.0" />
     <PackageReference Include="Google.Apis.Storage.v1" Version="1.73.0.4028" />
     <PackageReference Include="Google.Cloud.Storage.V1" Version="4.14.0" />
